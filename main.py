@@ -8,6 +8,8 @@ def main():
     terminal_menu = TerminalMenu(options)
     menu_entry_index = terminal_menu.show()
     get_specific_new(all_news[menu_entry_index]["href"])
+    input()
+    main()
 
 
 if __name__ == "__main__":
